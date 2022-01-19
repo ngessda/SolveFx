@@ -9,11 +9,9 @@ namespace SolveFx.App
 {
     internal class PressF
     {
-        private static double x;
         private double result = 0;
         private int n = Environment.ProcessorCount;
         private const int m = 4;
-        private Thread thread;
 
         private double a = 0;
         private double b = 0;
@@ -29,21 +27,24 @@ namespace SolveFx.App
         }
         private void StartingThreads()
         {
+            var t = new List<Thread>();
             for (int i = 0; i < n; i++)
             {
-                thread = new Thread(new ParameterizedThreadStart(SolveFx));
+                var thread = new Thread(new ParameterizedThreadStart(SolveFx));
                 thread.Start(i);
-                thread.Join();
+                t.Add(thread);
             }
             for (int i = 0; i < n; i++)
             {
+                t[i].Join();
                 result += xRes[i];
             }
-            Console.WriteLine(result);
+            Console.WriteLine(Math.Round(result, 3));
         }
 
         private void SolveFx(object count)
         {
+            double x = a;
             double fx = 0;
             x += ((b - a) / n) * (int)count;
             for (int i = 0; i < m; i++)
