@@ -1,0 +1,8 @@
+D:\C#\SolveFx.App\SolveFx.App\bin\Debug\SolveFx.App.exe.config
+D:\C#\SolveFx.App\SolveFx.App\bin\Debug\SolveFx.App.exe
+D:\C#\SolveFx.App\SolveFx.App\bin\Debug\SolveFx.App.pdb
+D:\C#\SolveFx.App\SolveFx.App\obj\Debug\SolveFx.App.csproj.AssemblyReference.cache
+D:\C#\SolveFx.App\SolveFx.App\obj\Debug\SolveFx.App.csproj.SuggestedBindingRedirects.cache
+D:\C#\SolveFx.App\SolveFx.App\obj\Debug\SolveFx.App.csproj.CoreCompileInputs.cache
+D:\C#\SolveFx.App\SolveFx.App\obj\Debug\SolveFx.App.exe
+D:\C#\SolveFx.App\SolveFx.App\obj\Debug\SolveFx.App.pdb

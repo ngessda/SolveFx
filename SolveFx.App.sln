@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveFx.App", "SolveFx.App\SolveFx.App.csproj", "{3676C4D7-E1CB-4418-9D23-EBB5B63B7586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3676C4D7-E1CB-4418-9D23-EBB5B63B7586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3676C4D7-E1CB-4418-9D23-EBB5B63B7586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3676C4D7-E1CB-4418-9D23-EBB5B63B7586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3676C4D7-E1CB-4418-9D23-EBB5B63B7586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5658DDC7-E17D-4A45-9214-977582FA2DEF}
+	EndGlobalSection
+EndGlobal
